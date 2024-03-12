@@ -2,7 +2,7 @@
 ```
 Name : RATHISH KUMAR C
 Roll no : 212222100043
-Date of experiment : Ex01
+
 ```
 
 ## Aim: 
