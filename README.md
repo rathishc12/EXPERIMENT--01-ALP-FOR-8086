@@ -3,6 +3,7 @@
 Name : RATHISH KUMAR C
 Roll no : 212222100043
 
+
 ```
 
 ## Aim: 
@@ -98,12 +99,60 @@ ret
 ## Output  
 ![image](https://github.com/JivanKarthick/EXPERIMENT--01-ALP-FOR-8086/assets/121165867/9e2459f7-ccd5-43ac-9dda-4d714f8d78a8)
 
+## OR Operation
+```py
+org 100H  
+MOV SI,0532H;
+MOV AX,0A32H;
+MOV BX,0B13H;
+OR AX,BX;
+ret
+```
+![image](https://github.com/JivanKarthick/EXPERIMENT--01-ALP-FOR-8086/assets/121165867/af5ecf70-01bf-4095-9ede-3193d2a32deb)
+
+
+## AND Operation
+```py
+org 100H  
+MOV [SI],AX;
+MOV AX,0A32H;
+MOV BX,0B13H;
+AND AX,BX; 
+ret
+```
+![image](https://github.com/JivanKarthick/EXPERIMENT--01-ALP-FOR-8086/assets/121165867/1b1257d0-7768-430e-99ef-0857331504df)
+
+## XOR Operation
+```py
+org 100H  
+MOV [SI+2],AX;
+MOV AX,0A32H;
+MOV BX,0B13H; 
+XOR AX,BX;  
+ret 
+```
+![image](https://github.com/JivanKarthick/EXPERIMENT--01-ALP-FOR-8086/assets/121165867/d5dc7a35-bf7d-4061-9cdd-d4130877fc00)
+
+
+## NOT Operation
+```py
+org 100H  
+MOV [SI+4],AX;
+MOV AX,0A32H;
+NOT AX; 
+MOV [SI+6],AX;
+ret 
+```
+![image](https://github.com/JivanKarthick/EXPERIMENT--01-ALP-FOR-8086/assets/121165867/3a4ee44d-6af9-43cc-bc64-866122f6cc25)
+
+
+
+
+
+
+
 ## Result :
- 
-Hence ALP on fundamental arithmetic and logical operations is verified and executed.
-
-
-
+Thus, ALP for fundamental arithmetic and logical operations are executed successfully.
 
 
 
